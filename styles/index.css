@@ -20,7 +20,7 @@ button {
 
 a {
   text-decoration: none;
-  color: rgba(24, 8, 24, 0.795);
+  color: inherit;
 }
 
 body {
@@ -28,11 +28,10 @@ body {
   display: grid;
   grid-template-rows: auto 1fr 350px;
   font-family: "Source Sans Pro", sans-serif;
-  /* position: relative; */
 }
 
 .btn {
-  background: #0d0b0d;
+  background: #26292E;
   color: #fff;
   padding: 1.2rem 3.2rem;
   font-size: 1rem;
@@ -53,20 +52,35 @@ body {
 .subtitle {
   display: block;
   text-align: center;
-  color: #777;
+  color: #ffffff;
   font-size: 1.4rem;
   font-weight: 500;
   margin: auto;
   line-height: 1.6;
   text-align: center;
-  /* margin: 0px 10rem; */
+}
+
+.subtitle-project {
+  display: block;
+  text-align: center;
+  color: #000;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: auto;
+  line-height: 1.6;
+  text-align: center;
 }
 
 .paragraph {
   font-size: 1.2rem;
   color: rgb(161, 161, 161);
   line-height: 1.7;
-  /* max-width: 1.7; */
+}
+
+.descricao {
+  font-size: 1.2rem;
+  color: #000;
+  line-height: 1.7;
 }
 
 .section {
@@ -79,6 +93,23 @@ h1 {
   letter-spacing: 3px;
   text-align: center;
   font-weight: bold;
+}
+
+.project-nome {
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  margin-bottom: 50px;
+  color: #0d0b0d;
+}
+
+.projects-number {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #f54678;
 }
 
 h2 {
@@ -346,6 +377,7 @@ footer {
 .footer-bottom strong {
   text-decoration: underline;
 }
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
